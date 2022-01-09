@@ -7,9 +7,38 @@ header {
 .whole-aquarium {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 
 img {
     border: 5px solid #555;
+    justify-content: space-between;
   }
+
+* {
+    border: solid;
+    border-color: goldenrod;
+}
+.fish-pic {
+    justify-content: space-between;
+}
+
+.fish-bio {
+   
+   justify-content: space-between;
+   margin: 0; 
+}
+
+ .travel {
+   display: flex;
+
+}
+.travel-tips {
+    margin-bottom: 25%;
+    border-color: gray;
+}
+
+
+    

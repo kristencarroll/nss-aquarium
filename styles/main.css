@@ -8,31 +8,42 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: baseline;
+    flex-direction: row;
+    border: solid;
+    border-color: blue;
+    
 }
 
 
 img {
-    border: 5px solid #555;
+    border: solid #555;
     justify-content: space-between;
+
   }
 
 * {
     border: solid;
-    border-color: goldenrod;
+    border-color: powderblue;
 }
 .fish-pic {
     justify-content: space-between;
+   margin: 25%;
+    
 }
 
 .fish-bio {
    
    justify-content: space-between;
-   margin: 0; 
+   margin: auto;
+   align-self: center;
+
 }
 
  .travel {
    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+  
 
 }
 .travel-tips {
@@ -40,5 +51,13 @@ img {
     border-color: gray;
 }
 
-
-    
+ul {
+    list-style-type: none;
+}
+.fish-details {
+    display: flex;
+    margin: 60px;
+}
+.fishes {
+    margin: 0 auto;
+}

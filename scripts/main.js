@@ -1,6 +1,11 @@
 import { getFish } from "./database.js"
-import { FishList } from "./fishList.js"
-
+import { FishList } from "./fish.js"
+import { soldierFish, mostHolyFish } from "./database.js"
+import { TipList } from "./tips.js"
+// const soldier = soldierFish()
+// const holy = mostHolyFish()
+// console.log(soldier)
+// console.log(holy)
 // const allFish = getFish()
 
 // for (const fish of allFish) {
@@ -26,7 +31,7 @@ import { FishList } from "./fishList.js"
 const mainContainer = document.querySelector("#container")
 
 const renderAllHTML = () => {
-    mainContainer.innerHTML = FishList()
+    mainContainer.innerHTML = TipList()
 }
 
 renderAllHTML()

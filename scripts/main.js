@@ -1,11 +1,11 @@
 import { getFish } from "./database.js"
 import { FishList } from "./fishList.js"
 
-const allFish = getFish()
+// const allFish = getFish()
 
-for (const fish of allFish) {
-    console.log(fish)
-}
+// for (const fish of allFish) {
+//     console.log(fish)
+// }
 
 // Import the FishList function from the correct module
 
@@ -23,7 +23,7 @@ for (const fish of allFish) {
 
 // parentHTMLElement.innerHTML = FishList()
 
-const mainContainer = document.querySelector(".container")
+const mainContainer = document.querySelector("#container")
 
 const renderAllHTML = () => {
     mainContainer.innerHTML = FishList()

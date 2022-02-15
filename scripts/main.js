@@ -1,7 +1,8 @@
-import { getFish } from "./database.js"
-import { FishList } from "./fish.js"
-import { soldierFish, mostHolyFish } from "./database.js"
-import { TipList } from "./tips.js"
+//import { getFish } from "./database.js"
+//import { soldierFish, mostHolyFish } from "./database.js"
+// import { FishList } from "./fish.js"
+// import { TipList } from "./tips.js"
+// import { LocationList } from "./locations.js"
 // const soldier = soldierFish()
 // const holy = mostHolyFish()
 // console.log(soldier)
@@ -27,11 +28,15 @@ import { TipList } from "./tips.js"
 
 
 // parentHTMLElement.innerHTML = FishList()
+import { MartinsAquarium } from "./MartinsAquarium.js"
 
 const mainContainer = document.querySelector("#container")
 
 const renderAllHTML = () => {
-    mainContainer.innerHTML = TipList()
+    mainContainer.innerHTML = MartinsAquarium()
 }
 
 renderAllHTML()
+
+
+
